@@ -1,0 +1,37 @@
+[
+    {
+        "nombre" : "Aspirina",
+        "precio" : "429",
+        "id" : "1",
+        "url" : "https://s1.eestatic.com/2018/06/08/ciencia/salud/farmacologia-farmacologia_clinica-medicamentos_313481328_81018046_1706x960.jpg"
+    },
+
+    {
+        "nombre" : "Biletan Enzimatico",
+        "precio" : "400.80",
+        "id" : "2",
+        "url" : "https://www.gador.com.ar/wp-content/uploads/2017/04/Biletan.png"
+    },
+
+    {
+        "nombre" : "Buscapinas Perlas",
+        "precio" : "1489.73",
+        "id" : "3",
+        "url" : "https://www.siemprebien.com.ar/Image/0/500_500-24996_0.jpg"
+    },
+
+    {
+        "nombre" : "Ketorolac",
+        "precio" : "1134.77",
+        "id" : "4",
+        "url" : "https://www.roemmers.com.ar/sites/default/files/F_000001135707.png"
+    },
+
+    {
+        "nombre" : "Ranitidina",
+        "precio" : "1514.77",
+        "id" : "5",
+        "url" : "https://www.roemmers.com.ar/sites/default/files/F_000001157002.png"
+    }
+
+]

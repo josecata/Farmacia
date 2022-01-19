@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link a css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CDN BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+
+    <!-- Icono de Whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=+5493874665343&text=Hola%20queria%20pedir%20" target="_blank">
+        <img src="./imagenes/whatsap.png" alt="Icono de Whatsapp" class="wspIcon">
+    </a>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-white bg-black">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"> <img src="./imagenes/logo.jpg" width="64" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" aria-current="page"
+                                            href="#">Servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="#">Actualidad</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="contacto.html">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="carrito.html">Carrito</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="registro.html">Registrarse</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!--Registros-->
+    <main>
+        <div class="formulario">
+            <h1>Registrate</h1>
+            <form class="contenedor container-fluid" id="formUser">
+                <div id="nombreForm">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" placeholder="Nombre completo" class="inputForm" id="nombreUser">
+                    <div id="textoNombre" class="form-text"></div>
+                </div>
+                <div id="mailForm">
+                    <label for="correo" class="form-label">Correo </label>
+                    <input type="text" placeholder="Correo electrónico" class="inputForm" id="mailUser">
+                    <div id="textoCorreo" class="form-text"></div>
+                </div>
+                <div id="provinciaForm">
+                    <label for="provincia" class="form-label">Provincia </label>
+                    <select id="provinciaUser" class="inputForm"></select>
+                    <div id="textoprovincia" class="form-text"></div>
+                </div>
+                <div id="localidadForm">
+                    <label for="nombre" class="form-label">Localidad</label>
+                    <input type="text" placeholder="Localidad" class="inputForm" id="localidadUser">
+                    <div id="textoLocalidad" class="form-text"></div>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="tyc" value="ok">
+                    <label class="form-check-label" for="tyc">Acepto Términos y Condiciones</label>
+                    <div id="textoTYC" class="form-text"></div>
+                </div>
+                <button type="button" class="btn-btn-primary" id="registrar">Registrarse</button>
+
+                <p>¿Ya tienes una cuenta? <a href="login.html" class="link">Iniciar Sesión</a></p>
+            </form>
+        </div>
+
+
+        <div id="tabla">
+
+        </div>
+
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <!-- Email -->
+
+
+    <!-- Footer final -->
+    <footer class="footerFinal">
+        <div class="footerItems">
+            <a href="index.html" class="logoF">
+                <img class="BotonAtras" src="imagenes/atras.jpg" alt="">
+            </a>
+            <ul class="contenido">
+                <li class="ulTitulo">CONTENIDO</li>
+                <li><a href="">Accesorios</a></li>
+                <li><a href="">Cuidado Personal</a></li>
+                <li><a href="">Suplementos</a></li>
+
+            </ul>
+            <ul class="atencion">
+                <li class="ulTitulo">ATENCIÓN AL CLIENTE</li>
+                <li><a href="">Quejas</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Reclamos</a></li>
+                <li class="arrepentir"><a href="">BOTÓN DE ARREPENTIMIENTO</a></li>
+            </ul>
+            <ul class="empresa">
+                <li class="ulTitulo">SOBRE NOSOTROS</li>
+                <li><a href="#">Locales</a></li>
+                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="#">Privacidad y cookies</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-center derechos">
+
+            <p> © 2021 Farmacia Mileniun. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- CDN BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- JS -->
+    <script src="js/registro.js"></script>
+</body>
+
+</html>
